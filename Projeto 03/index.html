@@ -24,8 +24,7 @@
         </header>
     
         <form action="">
-       
-            <fieldset>
+<fieldset>
                 
                 <legend> <strong>Informações do Evento</strong> </legend>
 
@@ -43,11 +42,57 @@
                     <textarea name="" id="" cols="30" rows="10" id="extra"></textarea>
 
                     
-
+                    <label for="categoria" id="label-categoria" >Categoria</label>
+                    <select name="categoria" id="categoria">
+                        <option value="live">Ao vivo</option>
+                        <option value="mentorship">Podcast</option>
+                    </select>
                     
                 </div>
 
-            </fieldset>
+</fieldset>
+
+<fieldset>
+                
+                <legend> <strong>Privacidade</strong> </legend>
+
+                <div class="input-wrapper">
+                    <label for="email">E-mail do administrador <span>(digite um email válido)</span></label>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="senha-user">Senha de acesso para os participantes <span>(digite um email válido)</span></label>
+                    <input type="password" id="senha-user">
+                </div>
+                
+</fieldset>
+        
+<fieldset>
+                
+    <legend> <strong>Dia e Hora</strong> </legend>
+    
+    <div 3 class="colunas">
+        
+        <div class="">
+            <label for="data">Data</label>
+            <input type="date" id="data">
+        </div>
+        <div class="">
+            <label for="begin">Das</label>
+            <input type="time" id="begin">
+        </div>
+        <div class="">
+            <label for="end">Ate</label>
+            <input type="time" id="end">
+        </div>
+        
+    </div>
+
+
+
+
+</fieldset>
 
 
         </form>

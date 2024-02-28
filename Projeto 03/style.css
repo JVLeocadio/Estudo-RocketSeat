@@ -65,6 +65,10 @@ form
     min-height: 300px;
     border-radius: 8px;
     padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 }
 
 fieldset {
@@ -92,6 +96,7 @@ fieldset legend {
     flex-direction: column;
     width: 608px;
    
+    padding-top: top 24px;
 }
 
 .input-wrapper label {
@@ -99,6 +104,8 @@ fieldset legend {
     line-height: 24px;
     color: #4E4958;
     margin-bottom: 8px;
+
+    margin-top: 24px;
 
     
 }
@@ -109,31 +116,55 @@ fieldset legend {
     line-height: 20px;
     
 }
-.input-wrapper input {
+.input-wrapper input, .input-wrapper select{
     background: #FAFAFC;
     border: 1px solid;
     border-radius: 8px;
     height: 56px;
     padding: 0 24px;
 
-}
-#label-link {
-    padding-top: 24px;
-}
-#label-wats {
-    padding-top: 24px;
+   
+
 }
 
-#label-extra {
-    padding-top: 24px;
-}
-
-#label-titul {
-    padding-top: 24px;
-}
 textarea {
     border: 1px solid;
     border-radius: 8px;
     padding: 0 24px;
     
+}
+
+.input-wrapper select {
+    appearance: none;
+}
+
+.colunas {
+    display: flex;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    margin-bottom: 8px;
+    margin-top: 24px;
+     gap: 20px;
+    
+}
+
+#begin ,#end   {
+    width: 128px;
+    
+
+}
+
+#data {
+    width: 312px;
+    
+    
+}
+
+#begin, #end, #data {
+    border: 1px solid;
+    border-radius: 8px;
+    
+
+
 }

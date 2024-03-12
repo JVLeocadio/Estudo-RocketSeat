@@ -63,7 +63,7 @@ form
     background-color: white;
     margin-top: 38px;
     min-height: 300px;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     padding: 64px;
 
     display: flex;
@@ -99,7 +99,7 @@ fieldset legend {
     padding-top: top 24px;
 }
 
-.input-wrapper label {
+.input-wrapper label{
     font-size: 14px;
     line-height: 24px;
     color: #4E4958;
@@ -167,4 +167,39 @@ textarea {
     
 
 
+}
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+footer {
+    background: #F0F0F4;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #d6d6D6;
+    border-radius: 0 0 8px 8px;
+    padding: 40px 64px;
+    
+
+
+    
+}
+
+footer .button {
+    height: 56px;    
+    background: #04D361;
+    border-radius: 8px ;
+    border: none; 
+
+    
+}
+
+footer .button:hover {
+
+    background: #129e51;
 }

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+}
+
+main {
+
+    max-width: 32rem;
+
+    margin-inline: auto;
+
+    padding: 5.4rem 4.0rem;
+
+    box-sizing: content-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+
+}
+
+img {
+    max-width: 100%;
+    margin-block: 3.2rem;
+
+}
+body {
+    font-family: "Source Code Pro", monospace; 
+    color: #A54328;
+    font-size: 1.6rem;
+    }
+
+button {
+    
+    background-color: #A54328;
+    color: white;
+    border: 0;
+    padding: .8rem 1.2rem;
+    border-radius: .6rem;
+    
+    margin-top:  1.8rem; 
+    }
+
+    h1, h2 {
+        font-size: 2.8 rem;
+        line-height: 3.8rem;
+    }
+    h2 {
+        text-decoration: underline;
+        margin-bottom: 3.2rem;
+    }
+
+
+    p, li , strong {
+        font-size:  1.4rem;
+        line-height: 1.8rem;
+
+    }
+
+    
+ol, ul {
+    padding-left: 2.4rem;
+}
+ul {
+    margin-bottom: 2.4rem;
+}
+
+@media (min-width: 1120px ) {
+
+    main {
+        flex-direction: row;
+        max-width: 100%;
+        gap: 16rem;
+        
+        max-width: fit-content;
+    }
+
+   .receita {
+    max-width: 43.5rem;
+
+   }
+
+   .preparo {
+    max-width: 52.5rem;
+   }
+
+}   
+
+

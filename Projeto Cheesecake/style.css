@@ -81,6 +81,8 @@ ul {
         gap: 16rem;
         
         max-width: fit-content;
+
+        padding: 9rem 6rem;
     }
 
    .receita {
@@ -91,6 +93,28 @@ ul {
    .preparo {
     max-width: 52.5rem;
    }
+
+   h1, h2 { 
+        font-size: 2rem;
+        line-height: 5rem;
+
+   }
+
+   p, li, strong {
+    font-size: 2rem;
+    line-height: 2.5rem;
+
+   }
+
+   button {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+   }
+
+
+
+
 
 }   
 

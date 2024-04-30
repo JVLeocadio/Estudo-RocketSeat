@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    font-size: 62.5%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+
+    background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+
+/*scren1 */
+main {
+
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    padding: 4.8rem 6.4 rem 6.4rem ;
+    height: 24.6rem;
+    width: 42.5rem;
+    margin-top: -12rem;
+  
+   
+}
+h1,p {
+    text-align: center;
+    padding-top: 1.6rem;
+    margin-bottom: 4.8rem;
+    
+}
+
+h1 {
+    color: #34355B;
+     font-family: Montserrat;
+    font-size: 2.4rem;
+    
+
+}
+p {
+
+     color: rgba(52, 53, 91, 0.80);
+    font-family: "DM Sans";
+    font-size: 1.6rem;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: .4rem;  
+}
+
+button,input {
+    font-family: "DM Sans";
+    height: 5.3rem;
+    margin-bottom: 6.4rem;
+}
+
+button {
+    background: var(--Iris-80, #7879F1);
+    border-radius:  0 .4rem .4rem  0 ;  
+    width: 8.2rem;
+    color: white;
+    cursor: pointer;
+    transition: background 3.s;
+    
+}
+
+button:hover {
+    background-color:  #4949aa;
+}
+
+input {
+    text-align: center;
+    border-radius:  .4rem 0  0 .4rem;  
+    width: 4.3rem;
+    
+}
+
+
+/* Screen 2 */
+
+h2 {
+
+    color: #34355B;text-align: center;
+    font-family: "DM Sans";
+    font-size: 2.4rem;
+    font-style: normal;
+    margin-top: 4.8rem;} 
+
+
+.Screen2 {display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+    
+   
+
+.Screen2 button {
+    border-radius: .4rem;
+    margin:  3.3rem 6.6rem;
+    width: 16.6rem;
+    height: 5.3rem;
+    
+
+}

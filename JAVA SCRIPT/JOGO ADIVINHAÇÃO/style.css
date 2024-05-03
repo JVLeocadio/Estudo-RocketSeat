@@ -22,13 +22,10 @@ body {
     height: 100vh;
 }
 
-.hide {
-    display: none;
-}
 
 /*scren1 */
 main {
-
+    
     border-radius: 6px;
     background: #FFF;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
@@ -36,8 +33,8 @@ main {
     height: 24.6rem;
     width: 42.5rem;
     margin-top: -12rem;
-  
-   
+    
+    
 }
 h1,p {
     text-align: center;
@@ -48,14 +45,14 @@ h1,p {
 
 h1 {
     color: #34355B;
-     font-family: Montserrat;
+    font-family: Montserrat;
     font-size: 2.4rem;
     
-
+    
 }
 p {
-
-     color: rgba(52, 53, 91, 0.80);
+    
+    color: rgba(52, 53, 91, 0.80);
     font-family: "DM Sans";
     font-size: 1.6rem;
 }
@@ -99,27 +96,31 @@ input {
 /* Screen 2 */
 
 h2 {
-
+    
     color: #34355B;text-align: center;
     font-family: "DM Sans";
     font-size: 2.4rem;
     font-style: normal;
     margin-top: 4.8rem;} 
-
-
-.Screen2 {display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
     
-   
-
-.Screen2 button {
-    border-radius: .4rem;
-    margin:  3.3rem 6.6rem;
-    width: 16.6rem;
-    height: 5.3rem;
     
+    .screen2 {display: flex;
+        flex-direction: column;
+        align-items: center;
 
-}
+    }
+    
+    
+    
+    .screen2 button {
+        border-radius: .4rem;
+        margin:  3.3rem 6.6rem;
+        width: 16.6rem;
+        height: 5.3rem;
+        
+        
+    }
+    
+.hide {
+        display: none;
+    }

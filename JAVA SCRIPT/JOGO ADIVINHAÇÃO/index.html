@@ -12,12 +12,12 @@
 
     <main>
 
-            <div class="screen1 hide">
+            <div class="screen1">
                 <h1>Jogo da Adivinhação</h1>
                 <p>Adivinhe o número entre 0 e 10</p>
                         <form>
-                <input type="text">
-                <a href="tela2.html" target="_blank"><button>Tentar</button></a>
+                <input id="inputNumber" type="number">
+                <button id="btnTry">Tentar</button>
                         </form>
             </div>
 
@@ -26,15 +26,18 @@
         
            
                 
-                <div class="Screen2">
+                <div class="screen2 hide">
                     <h2>Acertou em 3 tentativas!</h2>
-                    <button>Jogar novamente</button>
+                    <button id="btnAgain">Jogar novamente</button>
                 </div>
             
           
         </main>
 
 
+
+
+        <script src="main.js"></script>
 
 </body>
 </html>
